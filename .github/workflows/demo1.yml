@@ -10,7 +10,7 @@ on:
     paths-ignore:
       - '.github/workflows/*'
 jobs:
-  deploy
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Output event data
